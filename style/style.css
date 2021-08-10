@@ -1,0 +1,252 @@
+.nav-left {
+    display: flex;
+    margin-left: -2.5em;
+}
+
+
+.nav-left button {
+    display: flex;
+    margin-top: 1.9em;
+    justify-content: space-evenly;
+    border: 0px;
+    background-color: white;
+    width: 120px;
+    font-weight: bold;
+}
+
+.nav-left img {
+    margin-top: 15px;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-right p {
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+    margin-top: 1.8em;
+    font-weight: bold;
+}
+
+.nav-right img {
+    margin-top: 1.5em;
+}
+
+.signin-btn {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0.7em;
+    border: 0px;
+    border-radius: 15px;
+    width: 80px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.joinnow-btn {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    border: 0px;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+.my-navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.strip {
+    background-color: #1e3932;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.strip p {
+    margin-left: 345px;
+}
+
+.banner {
+    /* background-color: #d4e9e2; */
+    background-image: url("../Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10em;
+    padding-bottom: 20em;
+    padding-left: 16em;
+}
+
+.banner h2 {
+    padding-top: 3em;
+}
+
+.cardheading {
+    text-align: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    text-align: center;
+
+}
+
+.card img {
+    width: 8%;
+    /* margin-left: 18em; */
+    margin: auto;
+}
+
+.container3 {
+    text-align: center;
+    padding-top: 64px;
+
+    background-color: #f1f8f6;
+}
+
+.container3 img {
+    width: 4%;
+}
+
+.container3 ul {
+    padding-top: 4em;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+
+
+.container3 ul li {
+    font-weight: bold;
+}
+
+.container3-nav {
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: #d4e9e2;
+    padding-left: 5em;
+}
+
+.card-wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width:900px) {
+
+    .container3 ul {
+        display: block;
+
+
+    }
+
+}
+
+.payments {
+    background-color: #f3f1e7;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.container-payment {
+    display: flex;
+    padding-left: 1em;
+}
+
+.dollar img {
+    width: 4%;
+}
+
+.container-payment-col-2 {
+    display: flex;
+    width: 50%;
+}
+
+
+/* @media screen and (max-width:1000px) {
+
+    .container-payment {
+        display: block;
+    }
+
+    .container-payment-col-3 {
+        padding-left: 0em;
+    }
+
+} */
+
+.container-payment-col-2 img {
+    width: 30%;
+    padding-right: 2em;
+}
+
+.container-payment-col-3 {
+    display: flex;
+    padding-left: 8em;
+}
+
+.container-payment-col-3-content {
+    width: 60%;
+}
+
+.container-payment-col-3 img {
+    width: 25%;
+    padding-right: 2em;
+}
+
+.preload {
+    height: 60%;
+    width: 35% !important;
+    padding-right: 1.3em !important;
+}
+
+.register {
+    width: 25% !important;
+    height: 65%;
+    margin-left: -3em;
+}
+
+.dollar-last img {
+    width: 6%;
+}
+
+.dollar-last {
+    width: 30%;
+}
+
+.dollar-para {
+    font-weight: bold;
+}
+
+
+.container-payment-col-2-visa {
+    display: flex;
+    padding-left: 0em;
+}
+
+.container-payment-col-2-visa img {
+    width: 15%;
+    height: 80%;
+    padding-right: 1.3em;
+}
+
+.container-payment-col-2-content-visa {
+    width: 30%;
+}
